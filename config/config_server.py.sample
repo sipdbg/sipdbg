@@ -1,0 +1,14 @@
+import logging
+
+# socket data
+local_host = "172.16.253.11"
+local_port = 5060
+# redis
+redis_host = "127.0.0.1"
+redis_list = 'server'
+# RTP
+rtp_port_range_start = 40000
+rtp_port_range_end = 50000
+# Logger
+log_level = logging.DEBUG
+log_local = "local3"

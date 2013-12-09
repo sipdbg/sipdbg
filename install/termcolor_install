@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ $(whoami) != "root" ]; then echo "only root can do that"; exit 1; fi
+cd ../packages/python/termcolor
+python setup.py build
+python setup.py install
+cd -
