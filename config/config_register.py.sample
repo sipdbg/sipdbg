@@ -1,0 +1,16 @@
+debug = False
+# sip
+username = 'user'
+password = 'secret'
+fromuser = 'user' # required for authentication
+# server
+#proxy = "172.16.171.109"
+proxy = "127.0.0.1"
+port = 5060
+# client
+local_host = "192.168.1.1"
+local_port = 5065
+display_name = "John Doe"
+useragent = "OmniPCX Enterprise R10.1 j2.501.13.e"
+redis_host = "127.0.0.1"
+redis_send_list = 'send'
