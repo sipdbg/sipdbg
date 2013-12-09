@@ -1,0 +1,7 @@
+import logging
+# redis
+redis_host = "127.0.0.1"
+redis_list = 'server_01'
+# Logger
+log_level = logging.DEBUG
+log_local = "local3"
