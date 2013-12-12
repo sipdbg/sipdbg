@@ -9,13 +9,13 @@ class SIPSession (dict):
                      'client', 'server_id',
                      'sending_queue']
 
-    def create_function_set (self, key):
+    def __create_function_set (self, key):
         def _function (value):
             self [key] = value
             return True
         return _function
 
-    def create_function_get (self, key):
+    def __create_function_get (self, key):
         def _function ():
             return self [key]
         return _function
